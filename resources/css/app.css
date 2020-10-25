@@ -1,0 +1,137 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-position: top center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login{
+ margin: auto;
+ width: 35%;
+ padding: 10px;
+ text-align: center;
+ border: solid  10px white;
+ border-radius: 50px;
+ background-color: rgba(209, 240, 238, 0.5);
+ }
+
+ input{
+   margin: 0 auto 20px auto;
+   border: none;
+   border-radius: 20px;
+ }
+
+ input[type=submit]{
+   display: block;
+ }
+
+.error{
+  color: red;
+}
+
+
+.elections{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  padding-top: 0;
+  background-color: rgba(227, 243, 242, 0.7);
+}
+
+.elections p, a{
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+
+.elections a{
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: rgba(147, 254, 248, 0.7)
+}
+
+.elections a:hover{
+  background-color: rgba(239, 252, 123, 0.7);
+}
+
+.item{
+  z-index: 5;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  max-width: 200px;
+  background-color: rgba(227, 243, 242, 0.7);
+}
+.item p{
+    margin: 0;
+    padding: 10px;
+}
+.item ul{
+  margin: 0;
+  display: none;
+  padding: 2px 10px;
+  list-style: none;
+  background-color: rgba(147, 254, 248, 0.7)
+}
+.item:hover ul{
+  display: block;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.enemy{
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 50%;
+}
+
+.discrete a{
+  padding: 0;
+  margin: 0;
+  display: inline;
+  background-color: rgba(255, 0, 0, 0.0);
+}
+
+.discrete a:hover{
+  background-color: rgba(255, 0, 0, 0.0);
+}
+
+.disabled:hover{
+  display: none;
+}
+
+.logout{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.logout:hover{
+  color:blue;
+}
+
+.change{
+  font-size: 1;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 5px;
+}
